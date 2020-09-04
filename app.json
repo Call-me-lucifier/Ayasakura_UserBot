@@ -1,6 +1,6 @@
 {
-  "name": "Telegram User Bot",
-  "description": "[Paperplane Extended] A modular Telegram userbot running on Python 3.6+ with an sqlalchemy database.",
+  "name": "Ayasakura UserBot",
+  "description": "Another modded UserBot.",
   "logo": "https://i.imgur.com/ATSG4w3.png",
   "keywords": [
     "telegram",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/AvinashReddy3108/PaperplaneExtended",
-  "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-07-24",
-  "success_url": "https://t.me/PaperplaneExtended",
+  "repository": "https://github.com/herobuxx/ayasakura_UserBot",
+  "website": "https://github.com/herobuxx/ayasakura_UserBot",
+  "success_url": "https://github.com/herobuxx/ayasakura_UserBot",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -159,7 +159,7 @@
     {
       "plan": "heroku-postgresql",
       "options": {
-        "version": "9.5"
+        "version": "12"
       }
     }
   ]

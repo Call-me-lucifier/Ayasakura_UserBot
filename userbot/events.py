@@ -1,4 +1,5 @@
 # Copyright (C) 2019 The Raphielscape Company LLC.
+#           (C) 2020 HeroBuxx
 #
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
@@ -83,7 +84,7 @@ def register(**args):
                 if not disable_errors:
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
-                    text = "**USERBOT ERROR REPORT**\n"
+                    text = "**Uh, oh. Ayasakura got error**\n"
                     text += "Nothing is logged except the fact of error and date\n"
 
                     ftext = "========== DISCLAIMER =========="
@@ -123,7 +124,7 @@ def register(**args):
                     file.close()
 
                     if LOGSPAMMER:
-                        await check.respond("`Sorry, my userbot has crashed.\
+                        await check.respond("`Sorry, Ayasakura error :(\
                         \nThe error logs are stored in the userbot's log chat.`"
                                             )
 
