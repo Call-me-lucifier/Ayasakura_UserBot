@@ -362,6 +362,9 @@ FACEREACTS = [
 ]
 
 RUNS_STR = [
+    "Run boii run!",
+    "RUN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "RUN BITCH RUN!!!!!!",
     "Runs to Thanos..",
     "Runs far, far away from earth..",
     "Running faster than Bolt coz i'mma userbot !!",
@@ -436,23 +439,23 @@ CHASE_STR = [
 ]
 
 HELLOSTR = [
-    "Hi !",
-    "‘Ello, gov'nor!",
-    "What’s crackin’?",
-    "‘Sup, homeslice?",
-    "Howdy, howdy ,howdy!",
-    "Hello, who's there, I'm talking.",
-    "You know who this is.",
+    "Hoi !",
+    "Hoi bruhhh!",
+    "Whassup2’?",
+    "Henlo boi",
+    "Howdy!",
+    "Hello there!",
+    "Sssuppp",
     "Yo!",
-    "Whaddup.",
-    "Greetings and salutations!",
-    "Hello, sunshine!",
-    "Hey, howdy, hi!",
-    "What’s kickin’, little chicken?",
+    "Woy!",
+    "P",
+    "ping",
+    "pong",
+    "Anyone home?",
     "Peek-a-boo!",
-    "Howdy-doody!",
+    "Kopnck knock knock",
     "Hey there, freshman!",
-    "I come in peace!",
+    "Ding dong",
     "Ahoy, matey!",
     "Hiya!",
 ]
@@ -546,6 +549,7 @@ SLAP_TEMPLATES = [
     "quickscoped {victim}.", "put {victim} in check-mate.",
     "RSA-encrypted {victim} and deleted the private key.",
     "put {victim} in the friendzone.",
+    "throw Alek Dev's Poco at {victim}'s face.",
     "slaps {victim} with a DMCA takedown request!"
 ]
 
