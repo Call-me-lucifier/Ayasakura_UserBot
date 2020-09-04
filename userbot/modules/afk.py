@@ -66,8 +66,7 @@ async def mention_afk(mention):
         if ISAFK or ISAFK_SQL:
             if mention.sender_id not in USERS:
                 if EXCUSE:
-                    await mention.reply(f"I'm AFK right now.\
-                    \nReason: `{EXCUSE}`")
+                    await mention.reply(f"`{EXCUSE}`")
                 else:
                     await mention.reply(str(choice(AFKSTR)))
                 USERS.update({mention.sender_id: 1})
@@ -150,8 +149,7 @@ async def set_afk(afk_e):
         if afk_db:
             addgvar("AFK_REASON", string)
         AFKREASON = string
-        await afk_e.edit(f"Going AFK!\
-        \nReason: `{string}`")
+        await afk_e.edit(f"AFK Message: `{string}`")
     else:
         await afk_e.edit("Going AFK!")
     if BOTLOG:
